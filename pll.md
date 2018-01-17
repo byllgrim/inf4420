@@ -13,16 +13,16 @@ effect
 ------
 generates a clock with same (or multiple) frequency as input.
 
-usage
------
+used to
+-------
 * clock synchronization
 * demodulation (TODO how?)
 * frequency synthesis (TODO what?)
 * recover signal from noise
 * distribute clock
 
-use cases
----------
+used in
+-------
 * radio
 * telecom
 * computers
