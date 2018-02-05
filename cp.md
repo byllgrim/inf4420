@@ -1,5 +1,5 @@
 charge pump (cp)
-----------------
+================
 a type of dcdc converter, using capacitors.
 
 charge-pump pll
