@@ -1,6 +1,31 @@
 \subsection{10.1 Specs}
+  TODO 90\% confidence interval, normal distribution, standard deviation,
+  input offset.
 \subsection{10.2 Opamp}
+  TODO find equations.
 \subsection{10.3 Charge-Injection}
+  Channel charge, $V_{DS} = 0$:
+  \begin{equation}
+    Q_{ch} = W L C_{ox} V_{eff}
+           = W L C_{ox} (V_{GS} - V_t)
+  \end{equation}
+
+  Capacitance:
+  \begin{equation}
+    C = \frac{Q}{V}
+  \end{equation}
+
+  Injected voltage, one side of transistor:
+  \begin{equation}
+    \Delta V = \frac{Q_{ch} / 2}{C}
+  \end{equation}
+
+  TODO overlap capacitance.
+
+  Capacitive divider (two series caps, voltage in between):
+  \begin{equation}
+    V_{out} = V_{in} \frac{C_1}{C_1 + C_2}
+  \end{equation}
 \subsection{10.4 Latched}
 \subsection{10.5 Omit}
 \subsection{10.6 Omit}
